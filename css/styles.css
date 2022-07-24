@@ -1,0 +1,841 @@
+
+.body{
+    font-family:Roboto, sans-serif;
+    background:var(--white-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    
+}
+:root{
+    --blue-color:#2196F3;
+    --black-color:#212121;
+    --grey-color:#757575;
+    --white-color:#FFFFFF;
+    --shade-color: rgba(255, 255, 255, 0.6);
+    --background-color:#2F303A;
+}
+/*Header section*/
+
+.web-studio{
+   
+font-family: 'Raleway';
+font-weight: 700;
+
+font-size: 26px;
+line-height: 1.2;
+color:var(--blue-color);
+}
+.studio-1{
+    color:var(--black-color);
+}
+
+.list-style{
+    list-style:none ;
+    
+}
+
+.studio{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  color: var(--black-color);
+    text-decoration: none;
+
+}
+.list-style .studio:hover,
+.list-style .studio:focus{
+    color:var(--blue-color);
+}
+.studio-2{
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+  color: var(--black-color);
+  text-decoration: none;
+
+}
+.list-style .studio-2:hover,
+.list-style .studio-2:focus,
+.list-style .studio-2{
+    color:var(--blue-color);
+}
+
+
+.portfolio{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--black-color);
+text-decoration: none;
+}
+
+.list-style .portfolio:hover,
+.list-style .portfolio:focus,
+.list-style .portfolio{
+    color:var(--blue-color);
+}
+.portfolio-2{
+    font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: var(--black-color);
+text-decoration: none;
+}
+.list-style .portfolio-2:hover,
+.list-style .portfolio-2:focus{
+    color: var(--blue-color);
+}
+
+.contacts{
+
+   
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+color: var(--black-color);
+    text-decoration: none;
+    
+
+}
+.list-style .contacts:hover,
+.list-style .contacts:focus{
+    color:var(--blue-color);
+}
+
+.mail{
+
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+    text-decoration: none;
+
+
+
+}
+.list-style .mail:hover,
+.list-style .mail:focus{
+    color:var(--blue-color);
+}
+
+.telefon{
+   
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--grey-color);
+    text-decoration: none;
+    
+
+
+
+}
+.list-style .telefon:hover,
+.list-style .telefon:focus{
+    color:var(--blue-color);
+}
+
+
+/*Main section*/
+
+.all{
+    font-family:Roboto, sans-serif;
+    
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+/* identical to box height, or 162% */
+color: var(--black-color);
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+   
+}
+.list-style .all:hover,
+.list-style .all:focus{
+    color:var(--white-color);
+    background-color: var(--blue-color);
+}
+
+
+.cursor{
+    cursor: pointer;
+}
+
+    
+    
+.web-sites{
+    font-family:Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    color: var(--black-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
+
+    }
+.list-style .web-sites:hover,
+.list-style .web-sites:focus{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+
+
+.apps{
+    font-family:Roboto, sans-serif;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+.list-style .apps:hover,
+.list-style .apps:focus{
+    color:var(--white-color);
+    background-color: var(--blue-color);
+}
+
+.design{
+   
+    font-family:Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 162% */
+    color: var(--black-color);
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
+    
+    }
+    .list-style .design:hover,
+    .list-style .design:focus{
+        color: var(--white-color);
+        background-color: var(--blue-color);
+
+    }
+
+.marketing{
+    
+font-family:Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+
+color: var(--black-color);
+text-align: center;
+letter-spacing: 0.03em;
+
+
+}
+    .list-style .marketing:hover,
+    .list-style .marketing:focus{
+        color: var(--white-color);
+        background-color: var(--blue-color);
+
+    }
+
+.img-7{
+    background: url(portfolio1.jpg);
+    text-decoration: none;
+}
+.technoquack{
+   
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+   color: var(--black-color);
+}
+.web-site{
+    
+   
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+  
+    
+}
+
+
+.img-8{
+    background: url(portfolio2.jpg);
+    text-decoration: none;
+}
+.new-orlean-us-golden-star{
+   
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+    
+
+}
+.design-2{
+    
+
+    
+   
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+    
+}
+
+
+.img-9{
+    background: url(portfolio-1.jpg);
+    text-decoration: none;
+}
+.seafood{
+    
+
+    
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+ 
+}
+.app{
+
+
+
+    
+  
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+
+}
+
+.img-10{
+    background: url(portfolio-2.jpg);
+    text-decoration: none;
+}
+.prime{
+    
+
+   
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+    
+
+}
+.marketing-2{
+    
+
+    
+    
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+}
+
+.img-11{
+ background: url(portfolio5.jpg);
+ text-decoration: none;
+}
+.boxes{
+    
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+    
+
+}
+.app-2{
+    
+    
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+}
+
+
+.img-12{
+    background: url(111.jpg);
+    text-decoration: none;
+}
+.borders{
+    
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+   
+
+}
+.web-site-2{
+    
+    
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+
+}
+
+.img-13{
+    background: url(portfolio7.jpg);
+    text-decoration: none;
+}
+.limited-edition{
+   
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+    
+
+}
+.design-3{
+    
+    
+    
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+    
+}
+
+.img-14{
+ background: url(portfolio8.jpg);
+ text-decoration: none;
+}
+.lab{
+    
+    
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+   
+    
+
+}
+.marketing-3{
+    
+   
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+
+}
+
+
+.img-15{
+ background: url(2910404.jpg);
+ text-decoration: none;
+}
+.growing-business{
+    
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    color: var(--black-color);
+    letter-spacing: 0.06em;
+    
+    
+
+
+}
+.app-3{
+  
+    font-size: 16px;
+    line-height: 1.6;
+    /* identical to box height, or 188% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+
+}
+
+/*Footer section*/
+
+.footer{
+background: var(--background-color);
+}
+
+.web-studio-2{
+    
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--blue-color);
+}
+.studio-3{
+    color: var(--white-color);
+}
+
+.adress-footer{
+    
+    font-style: normal;
+    font-weight: 400;
+
+
+  
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--white-color);
+    
+
+
+
+}
+.mail-footer{
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--shade-color);
+    text-decoration: none;
+
+}
+.list-style .mail-footer:hover,
+.list-style .mail-footer:focus{
+    color:var(--blue-color);
+}
+
+
+.tel-footer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--shade-color);
+    text-decoration: none;
+    
+
+}
+.list-style .tel-footer:hover,
+.list-style .tel-footer:focus{
+    color: var(--blue-color);
+}
+/*Main index html section*/
+.background-h1{
+    background: var(--background-color);
+
+}
+.h1{
+   
+font-weight: 900;
+font-size: 44px;
+line-height: 1.3;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--white-color);
+
+}
+.button-background{
+    background: var(--blue-color);
+}
+.button{
+    font-family:Roboto, sans-serif;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: var(--white-color);
+}
+
+.h3-1{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black-color);
+
+}
+.p-1{font-size: 14px;
+    line-height: 1.7;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: var(--grey-color);
+    }
+    .h3-2{
+        font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black-color);
+
+    }
+    .p-2{
+        font-size: 14px;
+line-height: 1.7;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+
+    }
+    .h3-3{
+        font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black-color);
+
+    }
+    .p-3{
+        font-size: 14px;
+line-height: 1.7;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+
+    }
+    .h3-4{
+        font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--black-color);
+
+    }
+    .p-4{
+        font-size: 14px;
+line-height: 1.7;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+    }
+    .our-work{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+        text-align: center;
+        letter-spacing: 0.03em;
+        
+        color: var(--black-color);
+        
+    }
+ 
+
+    .our-command{
+        font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--black-color);
+
+    }
+
+    .ihor{font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        /* identical to box height */
+        
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--black-color);
+       
+        }
+        .product-designer{
+            font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+
+        }
+        .olga{
+            font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+color: var(--black-color);
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+
+        }
+        .frontend-developer{
+            font-size: 16px;
+            line-height: 1.2;
+            /* identical to box height */
+            
+            text-align: center;
+            letter-spacing: 0.03em;
+            
+            color: var(--grey-color);
+            
+        }
+        .nikolai{
+            font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+color: var(--black-color);
+text-align: center;
+letter-spacing: 0.03em;
+
+
+        }
+        .marketing-2{
+            font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+        }
+        .michael{
+            font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+color: var(--black-color);
+text-align: center;
+letter-spacing: 0.03em;
+
+
+
+        }
+        .ui-designer{
+            font-size: 16px;
+line-height: 1.2;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--grey-color);
+
+        }
